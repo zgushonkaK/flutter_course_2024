@@ -9,3 +9,7 @@ class OSMWeather {
     return 'OSMWeather{temp: $temp, type: $type}';
   }
 }
+
+class YandexWeather {
+
+}

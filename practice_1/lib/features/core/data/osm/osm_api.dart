@@ -16,3 +16,14 @@ class OSMApi {
     return OSMWeather(rJson['main']['temp'], rJson['weather'][0]['main']);
   }
 }
+
+class YandexApi {
+  final String url;
+  final String apiKey;
+
+  YandexApi(this.url, this.apiKey);
+
+  Future<YandexWeather> getWeatherByCity(String city) async {
+    var response;
+  }
+}
